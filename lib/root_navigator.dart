@@ -1,5 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:news_app/models/services/auth_services.dart';
 import 'package:news_app/views/screens/24_news.dart';
 import 'package:news_app/views/screens/covid_dashboard.dart';
 import 'package:news_app/views/screens/room_chats.dart';
@@ -14,6 +15,7 @@ class RootNavigator extends StatefulWidget {
 
 class _RootNavigatorState extends State<RootNavigator> {
   int _page = 0;
+  
   final List<Widget> _children = [
     CovidDashboard(),
     News24(),
@@ -84,6 +86,21 @@ class _RootNavigatorState extends State<RootNavigator> {
               ),
               //backgroundColor:  Colors.white,
               label: 'MyLocation',
+            ),
+            BottomNavigationBarItem(
+              icon: InkWell(
+                onTap: () {
+                  logOut();
+                  Navigator.of(context).pushNamed("/");
+                },
+                child: new Icon(
+                  Icons.logout,
+                  size: height * 0.03,
+                  color: Colors.green,
+                ),
+              ),
+              //backgroundColor:  Colors.white,
+              label: 'LogOut',
             ),
           ],
         ),

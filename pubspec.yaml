@@ -15,6 +15,10 @@ dependencies:
   json_annotation:
  
   cupertino_icons: ^1.0.2
+  cloud_firestore: ^1.0.5
+  dependencies:
+  firebase_auth: ^1.1.0
+  firebase_core: ^1.0.3
   curved_navigation_bar: ^0.3.7
   ff_navigation_bar: ^0.1.4
   bottom_navy_bar: ^5.5.0
@@ -22,7 +26,7 @@ dependencies:
   rxdart: ^0.23.1  
   bmnav: ^0.3.4  
   flutter_icons: ^1.1.0
-  google_fonts: ^1.1.1
+  #google_fonts: ^1.1.1
   scroll_snap_list: ^0.6.0
   auto_size_text: ^2.1.0
   #intl: ^0.17.0
@@ -31,8 +35,10 @@ dependencies:
   flutter_onboarding_screen: ^0.0.2
   equatable: ^1.2.5
   dartz: 0.9.0 
-  dio: ^3.0.10
-  shared_preferences: ^0.5.12+4
+  dio: ^4.0.0
+  google_maps_flutter: ^2.0.6
+  flutter_polyline_points: ^0.2.0
+  #shared_preferences: ^0.5.12+4
   flushbar: ^1.10.4
 
 dev_dependencies:

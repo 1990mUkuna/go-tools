@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955759759777",
+    "project_id": "gootools-33350",
+    "storage_bucket": "gootools-33350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955759759777:android:9167a3525d61b5ef76bbe0",
+        "android_client_info": {
+          "package_name": "com.example.news_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955759759777-hln31svfefjuctv8par0sa5qi4jfhkut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgqyOq7RFobQRUnT3Ozt41_DJgEylv9LQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955759759777-hln31svfefjuctv8par0sa5qi4jfhkut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
