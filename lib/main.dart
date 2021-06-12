@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/providers/24_news.dart';
+import 'package:news_app/providers/covid_provider.dart';
 import 'package:news_app/root_navigator.dart';
 import 'package:news_app/views/screens/create_account.dart';
 import 'package:news_app/views/screens/keep_authaticated_login.dart';
@@ -22,6 +23,9 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(
           create: (_) => News24CategoryProvider(),
+        ),
+        ChangeNotifierProvider(
+          create: (_) => CovidProvider(),
         ),
       ],
       child: MaterialApp(

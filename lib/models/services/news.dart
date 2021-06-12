@@ -41,7 +41,7 @@ class ArclesServices {
   Future<Either<RequestError, List<Article>>> appleAricle() async {
     try {
       final response = await _dio.get(
-       _appleArticle,
+        _appleArticle,
       );
 
       final articlesJson = response.data["articles"] as List;
@@ -81,10 +81,10 @@ class ArclesServices {
     }
   }
 
-   Future<Either<RequestError, List<Article>>> TeslaAricle() async {
+  Future<Either<RequestError, List<Article>>> TeslaAricle() async {
     try {
       final response = await _dio.get(
-      _teslaArticle,
+        _teslaArticle,
       );
 
       final articlesJson = response.data["articles"] as List;
@@ -123,12 +123,11 @@ class ArclesServices {
       }
     }
   }
-   
-   
-   Future<Either<RequestError, List<Article>>> TopBusinessAricle() async {
+
+  Future<Either<RequestError, List<Article>>> TopBusinessAricle() async {
     try {
       final response = await _dio.get(
-      _topBusinesHeadline,
+        _topBusinesHeadline,
       );
 
       final articlesJson = response.data["articles"] as List;
@@ -167,11 +166,11 @@ class ArclesServices {
       }
     }
   }
-   
-   Future<Either<RequestError, List<Article>>> TechCruchAricle() async {
+
+  Future<Either<RequestError, List<Article>>> TechCruchAricle() async {
     try {
       final response = await _dio.get(
-      _techCruch ,
+        _techCruch,
       );
 
       final articlesJson = response.data["articles"] as List;
@@ -210,11 +209,11 @@ class ArclesServices {
       }
     }
   }
-   
+
   Future<Either<RequestError, List<Article>>> WallStreet() async {
     try {
       final response = await _dio.get(
-      _wallStreetArticle ,
+        _wallStreetArticle,
       );
 
       final articlesJson = response.data["articles"] as List;
@@ -253,5 +252,4 @@ class ArclesServices {
       }
     }
   }
-   
 }

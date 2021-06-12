@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app/models/services/auth_services.dart';
 import 'package:news_app/views/screens/24_news.dart';
 import 'package:news_app/views/screens/covid_dashboard.dart';
-import 'package:news_app/views/screens/room_chats.dart';
+import 'package:news_app/views/screens/list_chats.dart';
 import 'package:news_app/views/screens/share_my_location.dart';
 
 class RootNavigator extends StatefulWidget {
